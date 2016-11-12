@@ -1,0 +1,9 @@
+node_modules/
+typings/
+jsconfig.json
+typings.json
+src/public/semantic/src/
+src/public/semantic/tasks/
+src/public/semantic/gulpfile.json
+src/public/semanticsemantic.json
+src/node_modules/
