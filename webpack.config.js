@@ -1,21 +1,21 @@
 module.exports = {
   devtool: 'inline-source-map',
-  entry: './src/app/app.jsx',
+  entry: './source/app/app.jsx',
   output: {
     path: __dirname,
-    filename: './src/public/bundle.js'
+    filename: './source/public/bundle.js'
   },
   resolve: {
     root: __dirname,
     alias: {
-      WeatherService: 'src/app/services/weather.js',
-      NotificationService: 'src/app/services/notification.js',
-      Renderer: 'src/app/services/renderer.js'
+      WeatherService: 'source/app/services/weather.js',
+      NotificationService: 'source/app/services/notification.js',
+      Renderer: 'source/app/services/renderer.js'
     },
     extensions: ['', '.js', '.jsx']
   },
   externals:[
-    { 'config': JSON.stringify(require('./src/app/config/config.json')) },
+    { 'config': JSON.stringify(require('./source/app/config/config.json')) },
      (function () {
       var IGNORES = [
         'electron'

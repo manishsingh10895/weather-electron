@@ -8,7 +8,7 @@ To run
     git clone https://github.com/manishsingh10895/weather-electron.git Weather
     cd Weather
     npm install 
-    cd source 
+    cd src 
     npm insatll
     cd ..
     npm start

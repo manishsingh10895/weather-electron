@@ -49,7 +49,7 @@ app.on('ready', ()=> {
     makeTray();
 
     mainWindow.loadURL(url.format({
-        pathname: path.join(__dirname, '/src/public/index.html'),
+        pathname: path.join(__dirname, '/source/public/index.html'),
         protocol: 'file:',
         slashes: true
     }));   
