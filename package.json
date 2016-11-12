@@ -21,5 +21,10 @@
     "underscore": "^1.8.3"
   },
   "author": "Manish Singh",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "webpack": "^1.13.3"
+  }
 }

@@ -9,8 +9,9 @@ To run
     cd Weather
     npm install 
     cd src 
-    npm insatll
+    npm install
     cd ..
+    webpack -w
     npm start
 ``` 
 
