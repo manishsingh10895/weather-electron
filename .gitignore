@@ -7,3 +7,8 @@ src/public/semantic/tasks/
 src/public/semantic/gulpfile.json
 src/public/semanticsemantic.json
 src/node_modules/
+source/node_modules/
+source/public/semantic/src/
+source/public/semantic/tasks/
+source/public/semantic/gulpfile.json
+source/public/semanticsemantic.json
